@@ -2408,7 +2408,7 @@ updatestatus(void)
     {
       fclose(batdev);
       batdev = fopen( "/sys/devices/platform/smapi/BAT0/", "r" );
-      if ( fgetc(batdev) == 'd' )
+      if (fgetc(batdev) == 'd' )
       {
         if (fork() == 0)
         {

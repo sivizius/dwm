@@ -1,0 +1,252 @@
+In file included from dwm.c:335:0:
+config.h:158:25: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+ #define ADDSCRIPT(...) {(const char * const []) { __VA_ARGS__, (const char *) NULL }},
+                         ^
+config.h:162:3: note: in expansion of macro ‘ADDSCRIPT’
+   ADDSCRIPT("st", "-t", "ranger", "-e", "ranger")
+   ^~~~~~~~~
+config.h:158:25: note: (near initialization for ‘startup[0].command’)
+ #define ADDSCRIPT(...) {(const char * const []) { __VA_ARGS__, (const char *) NULL }},
+                         ^
+config.h:162:3: note: in expansion of macro ‘ADDSCRIPT’
+   ADDSCRIPT("st", "-t", "ranger", "-e", "ranger")
+   ^~~~~~~~~
+config.h:158:25: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+ #define ADDSCRIPT(...) {(const char * const []) { __VA_ARGS__, (const char *) NULL }},
+                         ^
+config.h:163:3: note: in expansion of macro ‘ADDSCRIPT’
+   ADDSCRIPT("st", "-t", "terminal2")
+   ^~~~~~~~~
+config.h:158:25: note: (near initialization for ‘startup[1].command’)
+ #define ADDSCRIPT(...) {(const char * const []) { __VA_ARGS__, (const char *) NULL }},
+                         ^
+config.h:163:3: note: in expansion of macro ‘ADDSCRIPT’
+   ADDSCRIPT("st", "-t", "terminal2")
+   ^~~~~~~~~
+config.h:158:25: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+ #define ADDSCRIPT(...) {(const char * const []) { __VA_ARGS__, (const char *) NULL }},
+                         ^
+config.h:164:3: note: in expansion of macro ‘ADDSCRIPT’
+   ADDSCRIPT("st", "-t", "weechat", "-e", "weechat")
+   ^~~~~~~~~
+config.h:158:25: note: (near initialization for ‘startup[2].command’)
+ #define ADDSCRIPT(...) {(const char * const []) { __VA_ARGS__, (const char *) NULL }},
+                         ^
+config.h:164:3: note: in expansion of macro ‘ADDSCRIPT’
+   ADDSCRIPT("st", "-t", "weechat", "-e", "weechat")
+   ^~~~~~~~~
+config.h:158:25: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+ #define ADDSCRIPT(...) {(const char * const []) { __VA_ARGS__, (const char *) NULL }},
+                         ^
+config.h:165:3: note: in expansion of macro ‘ADDSCRIPT’
+   ADDSCRIPT("st", "-t", "terminal4")
+   ^~~~~~~~~
+config.h:158:25: note: (near initialization for ‘startup[3].command’)
+ #define ADDSCRIPT(...) {(const char * const []) { __VA_ARGS__, (const char *) NULL }},
+                         ^
+config.h:165:3: note: in expansion of macro ‘ADDSCRIPT’
+   ADDSCRIPT("st", "-t", "terminal4")
+   ^~~~~~~~~
+config.h:158:25: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+ #define ADDSCRIPT(...) {(const char * const []) { __VA_ARGS__, (const char *) NULL }},
+                         ^
+config.h:166:3: note: in expansion of macro ‘ADDSCRIPT’
+   ADDSCRIPT("st", "-t", "terminal5")
+   ^~~~~~~~~
+config.h:158:25: note: (near initialization for ‘startup[4].command’)
+ #define ADDSCRIPT(...) {(const char * const []) { __VA_ARGS__, (const char *) NULL }},
+                         ^
+config.h:166:3: note: in expansion of macro ‘ADDSCRIPT’
+   ADDSCRIPT("st", "-t", "terminal5")
+   ^~~~~~~~~
+config.h:158:25: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+ #define ADDSCRIPT(...) {(const char * const []) { __VA_ARGS__, (const char *) NULL }},
+                         ^
+config.h:167:3: note: in expansion of macro ‘ADDSCRIPT’
+   ADDSCRIPT("st", "-t", "terminal6")
+   ^~~~~~~~~
+config.h:158:25: note: (near initialization for ‘startup[5].command’)
+ #define ADDSCRIPT(...) {(const char * const []) { __VA_ARGS__, (const char *) NULL }},
+                         ^
+config.h:167:3: note: in expansion of macro ‘ADDSCRIPT’
+   ADDSCRIPT("st", "-t", "terminal6")
+   ^~~~~~~~~
+config.h:158:25: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+ #define ADDSCRIPT(...) {(const char * const []) { __VA_ARGS__, (const char *) NULL }},
+                         ^
+config.h:168:3: note: in expansion of macro ‘ADDSCRIPT’
+   ADDSCRIPT("st", "-t", "terminal7")
+   ^~~~~~~~~
+config.h:158:25: note: (near initialization for ‘startup[6].command’)
+ #define ADDSCRIPT(...) {(const char * const []) { __VA_ARGS__, (const char *) NULL }},
+                         ^
+config.h:168:3: note: in expansion of macro ‘ADDSCRIPT’
+   ADDSCRIPT("st", "-t", "terminal7")
+   ^~~~~~~~~
+config.h:158:25: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+ #define ADDSCRIPT(...) {(const char * const []) { __VA_ARGS__, (const char *) NULL }},
+                         ^
+config.h:169:3: note: in expansion of macro ‘ADDSCRIPT’
+   ADDSCRIPT("st", "-t", "terminal8")
+   ^~~~~~~~~
+config.h:158:25: note: (near initialization for ‘startup[7].command’)
+ #define ADDSCRIPT(...) {(const char * const []) { __VA_ARGS__, (const char *) NULL }},
+                         ^
+config.h:169:3: note: in expansion of macro ‘ADDSCRIPT’
+   ADDSCRIPT("st", "-t", "terminal8")
+   ^~~~~~~~~
+config.h:158:25: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+ #define ADDSCRIPT(...) {(const char * const []) { __VA_ARGS__, (const char *) NULL }},
+                         ^
+config.h:170:3: note: in expansion of macro ‘ADDSCRIPT’
+   ADDSCRIPT("st", "-t", "terminal9")
+   ^~~~~~~~~
+config.h:158:25: note: (near initialization for ‘startup[8].command’)
+ #define ADDSCRIPT(...) {(const char * const []) { __VA_ARGS__, (const char *) NULL }},
+                         ^
+config.h:170:3: note: in expansion of macro ‘ADDSCRIPT’
+   ADDSCRIPT("st", "-t", "terminal9")
+   ^~~~~~~~~
+config.h:158:25: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+ #define ADDSCRIPT(...) {(const char * const []) { __VA_ARGS__, (const char *) NULL }},
+                         ^
+config.h:171:3: note: in expansion of macro ‘ADDSCRIPT’
+   ADDSCRIPT("st", "-t", "terminalA")
+   ^~~~~~~~~
+config.h:158:25: note: (near initialization for ‘startup[9].command’)
+ #define ADDSCRIPT(...) {(const char * const []) { __VA_ARGS__, (const char *) NULL }},
+                         ^
+config.h:171:3: note: in expansion of macro ‘ADDSCRIPT’
+   ADDSCRIPT("st", "-t", "terminalA")
+   ^~~~~~~~~
+config.h:158:25: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+ #define ADDSCRIPT(...) {(const char * const []) { __VA_ARGS__, (const char *) NULL }},
+                         ^
+config.h:172:3: note: in expansion of macro ‘ADDSCRIPT’
+   ADDSCRIPT("st", "-t", "terminalB")
+   ^~~~~~~~~
+config.h:158:25: note: (near initialization for ‘startup[10].command’)
+ #define ADDSCRIPT(...) {(const char * const []) { __VA_ARGS__, (const char *) NULL }},
+                         ^
+config.h:172:3: note: in expansion of macro ‘ADDSCRIPT’
+   ADDSCRIPT("st", "-t", "terminalB")
+   ^~~~~~~~~
+config.h:158:25: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+ #define ADDSCRIPT(...) {(const char * const []) { __VA_ARGS__, (const char *) NULL }},
+                         ^
+config.h:173:3: note: in expansion of macro ‘ADDSCRIPT’
+   ADDSCRIPT("chromium")
+   ^~~~~~~~~
+config.h:158:25: note: (near initialization for ‘startup[11].command’)
+ #define ADDSCRIPT(...) {(const char * const []) { __VA_ARGS__, (const char *) NULL }},
+                         ^
+config.h:173:3: note: in expansion of macro ‘ADDSCRIPT’
+   ADDSCRIPT("chromium")
+   ^~~~~~~~~
+config.h:158:25: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+ #define ADDSCRIPT(...) {(const char * const []) { __VA_ARGS__, (const char *) NULL }},
+                         ^
+config.h:174:3: note: in expansion of macro ‘ADDSCRIPT’
+   ADDSCRIPT("thunderbird")
+   ^~~~~~~~~
+config.h:158:25: note: (near initialization for ‘startup[12].command’)
+ #define ADDSCRIPT(...) {(const char * const []) { __VA_ARGS__, (const char *) NULL }},
+                         ^
+config.h:174:3: note: in expansion of macro ‘ADDSCRIPT’
+   ADDSCRIPT("thunderbird")
+   ^~~~~~~~~
+config.h:158:25: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+ #define ADDSCRIPT(...) {(const char * const []) { __VA_ARGS__, (const char *) NULL }},
+                         ^
+config.h:175:3: note: in expansion of macro ‘ADDSCRIPT’
+   ADDSCRIPT("xss-lock", "slock")
+   ^~~~~~~~~
+config.h:158:25: note: (near initialization for ‘startup[13].command’)
+ #define ADDSCRIPT(...) {(const char * const []) { __VA_ARGS__, (const char *) NULL }},
+                         ^
+config.h:175:3: note: in expansion of macro ‘ADDSCRIPT’
+   ADDSCRIPT("xss-lock", "slock")
+   ^~~~~~~~~
+config.h:178:33: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+ #define ADDKBR(name,...) {name, (const char * const []) { "setxkbmap", __VA_ARGS__, (const char *) NULL }},
+                                 ^
+config.h:180:3: note: in expansion of macro ‘ADDKBR’
+   ADDKBR("de", "de")
+   ^~~~~~
+config.h:178:33: note: (near initialization for ‘kbrConfig[0].variant’)
+ #define ADDKBR(name,...) {name, (const char * const []) { "setxkbmap", __VA_ARGS__, (const char *) NULL }},
+                                 ^
+config.h:180:3: note: in expansion of macro ‘ADDKBR’
+   ADDKBR("de", "de")
+   ^~~~~~
+config.h:178:33: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+ #define ADDKBR(name,...) {name, (const char * const []) { "setxkbmap", __VA_ARGS__, (const char *) NULL }},
+                                 ^
+config.h:181:3: note: in expansion of macro ‘ADDKBR’
+   ADDKBR("il", "il", "phonetic")
+   ^~~~~~
+config.h:178:33: note: (near initialization for ‘kbrConfig[1].variant’)
+ #define ADDKBR(name,...) {name, (const char * const []) { "setxkbmap", __VA_ARGS__, (const char *) NULL }},
+                                 ^
+config.h:181:3: note: in expansion of macro ‘ADDKBR’
+   ADDKBR("il", "il", "phonetic")
+   ^~~~~~
+config.h:178:33: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+ #define ADDKBR(name,...) {name, (const char * const []) { "setxkbmap", __VA_ARGS__, (const char *) NULL }},
+                                 ^
+config.h:182:3: note: in expansion of macro ‘ADDKBR’
+   ADDKBR("bg", "bg", "phonetic")
+   ^~~~~~
+config.h:178:33: note: (near initialization for ‘kbrConfig[2].variant’)
+ #define ADDKBR(name,...) {name, (const char * const []) { "setxkbmap", __VA_ARGS__, (const char *) NULL }},
+                                 ^
+config.h:182:3: note: in expansion of macro ‘ADDKBR’
+   ADDKBR("bg", "bg", "phonetic")
+   ^~~~~~
+config.h:178:33: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+ #define ADDKBR(name,...) {name, (const char * const []) { "setxkbmap", __VA_ARGS__, (const char *) NULL }},
+                                 ^
+config.h:183:3: note: in expansion of macro ‘ADDKBR’
+   ADDKBR("gr", "gr")
+   ^~~~~~
+config.h:178:33: note: (near initialization for ‘kbrConfig[3].variant’)
+ #define ADDKBR(name,...) {name, (const char * const []) { "setxkbmap", __VA_ARGS__, (const char *) NULL }},
+                                 ^
+config.h:183:3: note: in expansion of macro ‘ADDKBR’
+   ADDKBR("gr", "gr")
+   ^~~~~~
+dwm.c: In function ‘changekbrlayout’:
+dwm.c:531:11: warning: assignment discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+   kbrText = k->name;
+           ^
+dwm.c: In function ‘clientmessage’:
+dwm.c:660:31: warning: "/*" within comment [-Wcomment]
+     /*|| (cme->data.l[0] == 2 /* _NET_WM_STATE_TOGGLE / && !c->isfullscreen)));*/
+                                
+dwm.c: In function ‘drawbar’:
+dwm.c:840:20: warning: variable ‘stw’ set but not used [-Wunused-but-set-variable]
+  int x, w, sw = 0, stw = 0;
+                    ^~~
+dwm.c: In function ‘initscripts’:
+dwm.c:1162:7: warning: assignment discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+     s = &startup[i];
+       ^
+dwm.c: In function ‘playsound’:
+dwm.c:1438:21: warning: assignment discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+     SoundCommand[2] = Sounds[arg->ui];
+                     ^
+dwm.c: In function ‘setup’:
+dwm.c:1910:11: warning: assignment discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+   kbrText = k->name;
+           ^
+dwm.c: In function ‘updatebars’:
+dwm.c:2196:16: warning: unused variable ‘w’ [-Wunused-variable]
+   unsigned int w;
+                ^
+At top level:
+dwm.c:2004:1: warning: ‘tagmon’ defined but not used [-Wunused-function]
+ tagmon(const Arg *arg)
+ ^~~~~~
+dwm.c:981:1: warning: ‘focusmon’ defined but not used [-Wunused-function]
+ focusmon(const Arg *arg)
+ ^~~~~~~~
